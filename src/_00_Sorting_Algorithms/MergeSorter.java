@@ -10,6 +10,7 @@ public class MergeSorter extends Sorter {
 	//   Complete the steps in the mergeSort method.
 	//   You can use display.updateDisplay() to show the current
 	//   progress on the graph.
+	// 김 정 은 은  똥 똥 합 니 
 	@Override
 	void sort(int[] array, SortingVisualizer display) {
 		//20. call the mergeSort method with 0 and the length of the array minus one
@@ -17,18 +18,23 @@ public class MergeSorter extends Sorter {
 	
 	private void mergeSort(int[] array, int low, int high, SortingVisualizer display) {
 		//1. Create a temporary integer array that is the same length as the passed in array.
-		
+		int[] temp = new int[array.length];
 		//2. make an if statement that checks if low is less than high
 		//   and put the rest of the method inside of it
-
+		if(low < high) {
+			int middle = (low + high) / 2;
+			mergeSort(array, low, middle, display);
+			mergeSort(array, middle + 1, high, display);
+			
+		}
 		//3. Create an integer called middle and set it 
 		//   equal to the half way
             
             //4. call the mergeSort method with low and middle
            
             //5. call the mergeSort method with middle + 1 and high
-            
-            //6. copy the element from the array into the temporary array,
+		
+            //6. copy the elements from the array into the temporary array,
             //   but only the elements from low to high inclusive
             
             //7. create three integers called i, j, and k and

@@ -14,6 +14,20 @@ import javax.swing.JOptionPane;
  * MergeSorter
  * HeapSorter
  * BogoSorter
+ * yo sé bien que estoy afuera
+ * pero el día en que yo me muera
+ * sé que tendras que llorar
+ * 
+ * llorar y llorar
+ * llorar y llorar
+ * 
+ * diras que no me quisiste
+ * pero vas a estar muy triste
+ * y así te me vas a quedar
+ * 
+ * unaaa piedraaaa en el camino
+ * me enseñó mi destino
+ * era rodar, y rodar
  */
 
 public class _02_SortingAlgorithms {
